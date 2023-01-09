@@ -26,6 +26,11 @@
                 "groups": [
                     "module",
                     "/^@entities/",
+                    "/^@usecases/",
+                    "/^@interfaces/",
+                    "/^@repositories/",
+                    "/^@utils/",
+                    "/^@commands/",
                     [
                         "parent", 
                         "sibling", 

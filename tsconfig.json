@@ -10,7 +10,12 @@
         "outDir": "./dist",
         "baseUrl": "./",
         "paths": {
-            "@entities/*": ["src/entities/*"]
+            "@entities/*": ["src/entities/*"],
+            "@usecases/*": ["src/usecases/*"],
+            "@interfaces/*": ["src/interfaces/*"],
+            "@repositories/*": ["src/repositories/*"],
+            "@utils/*": ["src/utils/*"],
+            "@commands/*": ["src/commands/*"]
         }
     },
     "exclude": [

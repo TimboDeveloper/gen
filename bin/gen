@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+/* eslint-disable */
+
+const DEV_MODE = true
+
+async function execute() {
+    if (DEV_MODE) {
+        await require('../script/bundler.js').bundle()
+    }
+    
+    await import(`${__dirname}/../dist/index.mjs`)
+}
+
+execute()
